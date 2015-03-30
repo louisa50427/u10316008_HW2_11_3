@@ -19,6 +19,7 @@ public class Account{
 	Account(int newId,double newBalance){
 		id = newId;
 		balance = newBalance;
+		dateCreated = new java.util.Date();
 	}
 	// The setter and getter methods for all  data fields
 	public void setId(int newId){
