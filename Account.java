@@ -4,7 +4,7 @@ public class Account{
 		
 		// Declare four data fields 
 		private int id = 0;
-		private double  = 0;
+		private double balance = 0;
 		private double  annualInterestRate = 0;
 		private java.util.Date dateCreated;
 		
